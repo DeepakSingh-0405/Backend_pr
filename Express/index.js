@@ -8,7 +8,7 @@ const port = 3000;
 // })
 
 app.get('/',(req,res)=>{
-    res.send("<h1>Welcome to Home</h1>")
+    res.send("<h1>Welcome to Home Route</h1>")
 })
 app.get('/About',(req,res)=>{
     res.send("<h1>About route</h1>")
