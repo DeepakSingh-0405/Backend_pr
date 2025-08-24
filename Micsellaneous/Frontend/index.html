@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get and Post requests</title>
+</head>
+
+<body>
+    <!-- GET REQ -->
+    <!-- Used to request data from a server.
+    Data is sent in the URL query string (e.g. example.com/search?q=hello).
+    Typically used for reading/fetching information (safe, no side effects). -->
+
+    <!-- Parameters visible in URL.
+    Can be bookmarked/cached.
+    Limited data size (depends on browser/server, usually ~2KB).
+    Faster than POST for small data fetch. -->
+    <h1>Get request form</h1>
+    <form action="http://localhost:8080/register" method="get">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <button>Submit</button>
+    </form>
+    <p>When this get req form is submitted the req will be sent to register route but the query will be visible in the url.</p>
+
+
+    <!-- POST REQ -->
+    <!-- Used to send data to the server to create/update a resource.
+    Data is sent in the request body, not in the URL.
+    Commonly used in forms, authentication, file upload. -->
+
+    <!-- Data is hidden (not shown in URL).
+    No size limit for data (good for large files).
+    Not cached/bookmarked by default.
+    More secure than GET (but still requires HTTPS). -->
+    <h1>Post request form</h1>
+    <form action="http://localhost:8080/register" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br>
+        <button>Submit</button>
+    </form>
+    <p>When this post req form is submitted the req will be sent to register route but the query will NOT be visible in the url.</p>
+
+
+
+    <!-- ❌ Drawbacks of GET over POST
+
+    1. Security Risk → Sensitive data (like passwords) is exposed in URL and can be stored in browser history, server logs, etc.
+
+    2. Data Length Limit → URL length restrictions limit how much data can be sent.
+
+    3. Not Suitable for Confidential Operations → Should not be used for login forms, payment processing, etc.
+
+    4. Caching Issues → Browsers/servers may cache GET requests, which can cause unexpected results.
+
+    5. Less Flexible → Cannot handle complex or large structured data efficiently. -->
+</body>
+
+</html>
