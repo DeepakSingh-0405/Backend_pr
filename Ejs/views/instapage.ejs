@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- include tag in ejs- used to include another template in an template -->
+     <%- include('../includes/header.ejs') %>
+
+    <h1>Instagram Profile of @<%= username %></h1>
+    <p>Welcome to the profile of <%= username %></p>
+
+    <!-- loops in ejs -->
+     <h2>Followers List</h2>
+     <ul>
+        <% for(let name of followers){ %>
+            <li><%= name %></li>
+        <% } %>
+     </ul>
+
+     <!-- include tag in ejs- used to include another template in an template -->
+     <%- include('../includes/footer.ejs') %>
+</body>
+</html>

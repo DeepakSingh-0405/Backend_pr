@@ -1,0 +1,117 @@
+{
+  "deepak_singh": {
+    "name": "deepak_singh",
+    "followers": 1520,
+    "following": 320,
+    "posts": [
+      {
+        "id": 1,
+        "caption": "Exploring the mountains 🏔️",
+        "image": "https://picsum.photos/400/300?random=1",
+        "likes": 845,
+        "comments": 67,
+        "shares": 23
+      },
+      {
+        "id": 2,
+        "caption": "Coffee time ☕ #morningvibes",
+        "image": "https://picsum.photos/400/300?random=2",
+        "likes": 420,
+        "comments": 34,
+        "shares": 12
+      }
+    ]
+  },
+  "ananya_sharma": {
+    "name": "ananya_sharma",
+    "followers": 2380,
+    "following": 410,
+    "posts": [
+      {
+        "id": 1,
+        "caption": "Beach days are the best 🌊",
+        "image": "https://picsum.photos/400/300?random=3",
+        "likes": 1345,
+        "comments": 120,
+        "shares": 56
+      },
+      {
+        "id": 2,
+        "caption": "Late night study grind 📚",
+        "image": "https://picsum.photos/400/300?random=4",
+        "likes": 560,
+        "comments": 47,
+        "shares": 20
+      }
+    ]
+  },
+  "rahul_verma": {
+    "name": "rahul_verma",
+    "followers": 985,
+    "following": 290,
+    "posts": [
+      {
+        "id": 1,
+        "caption": "City lights never sleep 🌃",
+        "image": "https://picsum.photos/400/300?random=5",
+        "likes": 770,
+        "comments": 65,
+        "shares": 25
+      },
+      {
+        "id": 2,
+        "caption": "Coding late nights 👨‍💻",
+        "image": "https://picsum.photos/400/300?random=6",
+        "likes": 890,
+        "comments": 72,
+        "shares": 33
+      }
+    ]
+  },
+  "priya_kapoor": {
+    "name": "priya_kapoor",
+    "followers": 3120,
+    "following": 510,
+    "posts": [
+      {
+        "id": 1,
+        "caption": "Nature’s therapy 🌿",
+        "image": "https://picsum.photos/400/300?random=7",
+        "likes": 1420,
+        "comments": 110,
+        "shares": 44
+      },
+      {
+        "id": 2,
+        "caption": "Weekend vibes 🎉",
+        "image": "https://picsum.photos/400/300?random=8",
+        "likes": 1780,
+        "comments": 156,
+        "shares": 60
+      }
+    ]
+  },
+  "arjun_malhotra": {
+    "name": "arjun_malhotra",
+    "followers": 450,
+    "following": 180,
+    "posts": [
+      {
+        "id": 1,
+        "caption": "Minimalist desk setup ✨",
+        "image": "https://picsum.photos/400/300?random=9",
+        "likes": 310,
+        "comments": 22,
+        "shares": 9
+      },
+      {
+        "id": 2,
+        "caption": "Chilling with friends 🍕",
+        "image": "https://picsum.photos/400/300?random=10",
+        "likes": 490,
+        "comments": 40,
+        "shares": 15
+      }
+    ]
+  }
+}
